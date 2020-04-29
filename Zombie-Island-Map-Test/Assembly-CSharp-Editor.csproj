@@ -63,9 +63,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LowPolyGround\TutorialInfo\Scripts\Editor\Assetstorebutton.cs" />
-    <Compile Include="Assets\LowPolyGround\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\LowPolyWater_Pack\Scripts\Editor\GeneratePlane.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\Editor\Assetstorebutton.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyWater_Pack\Scripts\Editor\GeneratePlane.cs" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Users/서지훈/Documents/Programming Files/UnityProgramming/3D Project/ZombieIsland/Zombie-Island/Zombie-Island-Map-Test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>

@@ -63,20 +63,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\LowPolyGround\Scripts\FreeCamera.cs" />
-    <Compile Include="Assets\LowPolyGround\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\LowPolyGround\TutorialInfo\Scripts\buttonAssetstore.cs" />
-    <Compile Include="Assets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+    <Compile Include="Assets\FreeAssets\BrokenVector\LowPolyFencePack\Scripts\DoorController.cs" />
+    <Compile Include="Assets\FreeAssets\BrokenVector\LowPolyFencePack\Scripts\DoorToggle.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyGround\Scripts\FreeCamera.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\buttonAssetstore.cs" />
+    <Compile Include="Assets\FreeAssets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Script\Map.cs" />
     <Compile Include="Assets\Script\MapGenerator.cs" />
-    <None Include="Assets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
-    <None Include="Assets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
-    <None Include="Assets\LowPolyGround\Readme_DownLoad Post ProcessingStack.txt" />
-    <None Include="Assets\MegaPack1Lite\SciFiPack1\README.txt" />
-    <None Include="Assets\MegaPack1Lite\TropicalIslandPack1\README.txt" />
-    <None Include="Assets\MegaPack1Lite\EnchantedForestPack1\README.txt" />
-    <None Include="Assets\MegaPack1Lite\Steampunk\README.txt" />
-    <None Include="Assets\MegaPack1Lite\ToolsAndWeapons\README.txt" />
+    <None Include="Assets\FreeAssets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
+    <None Include="Assets\FreeAssets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
+    <None Include="Assets\FreeAssets\LowPolyGround\Readme_DownLoad Post ProcessingStack.txt" />
+    <None Include="Assets\FreeAssets\MegaPack1Lite\SciFiPack1\README.txt" />
+    <None Include="Assets\FreeAssets\BrokenVector\LowPolyTreePack\README.txt" />
+    <None Include="Assets\FreeAssets\MegaPack1Lite\TropicalIslandPack1\README.txt" />
+    <None Include="Assets\FreeAssets\MegaPack1Lite\EnchantedForestPack1\README.txt" />
+    <None Include="Assets\FreeAssets\MegaPack1Lite\Steampunk\README.txt" />
+    <None Include="Assets\FreeAssets\MegaPack1Lite\ToolsAndWeapons\README.txt" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/서지훈/Documents/Programming Files/UnityProgramming/3D Project/ZombieIsland/Zombie-Island/Zombie-Island-Map-Test/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
