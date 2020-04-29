@@ -71,6 +71,7 @@
     <Compile Include="Assets\FreeAssets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
     <Compile Include="Assets\Script\Map.cs" />
     <Compile Include="Assets\Script\MapGenerator.cs" />
+    <Compile Include="Assets\Script\Player.cs" />
     <None Include="Assets\FreeAssets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\FreeAssets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
     <None Include="Assets\FreeAssets\LowPolyGround\Readme_DownLoad Post ProcessingStack.txt" />
