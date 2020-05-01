@@ -65,13 +65,20 @@
   <ItemGroup>
     <Compile Include="Assets\FreeAssets\BrokenVector\LowPolyFencePack\Scripts\DoorController.cs" />
     <Compile Include="Assets\FreeAssets\BrokenVector\LowPolyFencePack\Scripts\DoorToggle.cs" />
+    <Compile Include="Assets\FreeAssets\Bullet Casing\Scripts\FP_Shooting.cs" />
+    <Compile Include="Assets\FreeAssets\Bullet Casing\Scripts\Sound.cs" />
     <Compile Include="Assets\FreeAssets\LowPolyGround\Scripts\FreeCamera.cs" />
     <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\buttonAssetstore.cs" />
     <Compile Include="Assets\FreeAssets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
-    <Compile Include="Assets\Script\Map.cs" />
-    <Compile Include="Assets\Script\MapGenerator.cs" />
-    <Compile Include="Assets\Script\Player.cs" />
+    <Compile Include="Assets\Script\Map\Map.cs" />
+    <Compile Include="Assets\Script\Map\MapGenerator.cs" />
+    <Compile Include="Assets\Script\Player\Player.cs" />
+    <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Gun\Rifle.cs" />
+    <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Gun\RifleController.cs" />
+    <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Projectile\Projectile.cs" />
+    <Compile Include="Assets\Script\Weapon\ShortRangeWeapon\BaseballBat\BaseballBat.cs" />
+    <Compile Include="Assets\Script\Weapon\ShortRangeWeapon\BaseballBat\BaseballBatController.cs" />
     <None Include="Assets\FreeAssets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\FreeAssets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
     <None Include="Assets\FreeAssets\LowPolyGround\Readme_DownLoad Post ProcessingStack.txt" />
