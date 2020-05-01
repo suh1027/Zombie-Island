@@ -8,7 +8,7 @@ public class Rifle : MonoBehaviour
 
     public float damage; // 데미지 => projectile에 붙이는게 더 맞는듯
     
-    public float nextShootingTime; // 다음 발사될 총알까지의 시간
+    float nextShootingTime; // 다음 발사될 총알까지의 시간
     public float betweenBulletTime; // 생성될 총알 간 속도
     public float reloadTime; // 재장전 속도
     public float bulletSpeed; // 날아가는 총알의 속도
@@ -35,7 +35,7 @@ public class Rifle : MonoBehaviour
     {
         Debug.Log("Rifle.Shoot() 호출됨");
         // 총 30발 이상을 쏘면 reload 하는 조건 생성? // 총알관리 생각해보기
-        if (Time.time > nextShootingTime) //??
+        if (Time.time > nextShootingTime) // 뭘 뜯하는건지 정확히는 모르겠음
         {
             Debug.Log("Bullet 생성 전");
             nextShootingTime = Time.time + betweenBulletTime / 1000; // 왜 이렇게 지정되는지?
