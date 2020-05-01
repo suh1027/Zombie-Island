@@ -96,8 +96,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: Rifle
   damage: 20
-  nextShootingTime: 100
-  betweenBulletTime: 100
+  betweenBulletTime: 200
   reloadTime: 30
   bulletSpeed: 35
   currentBulletCount: 30
@@ -131,10 +130,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5446272306960738908}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: -4.4701692e-10, z: 1.1600001}
+  m_LocalRotation: {x: 0, y: 0.03489949, z: 0, w: 0.99939084}
+  m_LocalPosition: {x: -0.13, y: -1.490151e-10, z: 0.8700001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 287806541583036435}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 4, z: 0}
