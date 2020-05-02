@@ -10,13 +10,12 @@ public class Rifle : MonoBehaviour
     
     float nextShootingTime; // 다음 발사될 총알까지의 시간
     public float betweenBulletTime; // 생성될 총알 간 속도
-    public float reloadTime; // 재장전 속도
     public float bulletSpeed; // 날아가는 총알의 속도
     
     // 총알 관련
-    public int currentBulletCount; // 현재 남아있는 총알의 갯수
-    public int reloadBulletCount; // 장전 가능한 총알의 갯수
-    public int totalBulletCount; // 남아있는 전체 총알 갯수
+    //public int currentBulletCount; // 현재 남아있는 총알의 갯수
+    //public int reloadBulletCount; // 장전 가능한 총알의 갯수
+    //public int totalBulletCount; // 남아있는 전체 총알 갯수
     public Transform muzzle; // 총구 위치 지정
 
     // 총알 오브젝트
@@ -35,7 +34,7 @@ public class Rifle : MonoBehaviour
     {
         Debug.Log("Rifle.Shoot() 호출됨");
         // 총 30발 이상을 쏘면 reload 하는 조건 생성? // 총알관리 생각해보기
-        if (Time.time > nextShootingTime) // 뭘 뜯하는건지 정확히는 모르겠음
+        if (Time.time > nextShootingTime) // 0 + betweenBulletTime~~
         {
             Debug.Log("Bullet 생성 전");
             nextShootingTime = Time.time + betweenBulletTime / 1000; // 왜 이렇게 지정되는지?

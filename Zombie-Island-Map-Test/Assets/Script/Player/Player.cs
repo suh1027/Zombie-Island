@@ -34,20 +34,28 @@ public class Player : MonoBehaviour
     // private Camera viewCamera;
     [SerializeField]
     private Animator anim; // 애니메이터
-    [SerializeField]
+    
     RifleController rifleController;
+    BaseballBatController baseballBatController;
+    BowController bowController;
 
     private void Start()
     {
         myRigid = GetComponent<Rigidbody>();
         myCollider = GetComponent<CapsuleCollider>();
         anim = GetComponent<Animator>();
+        
+        // Weapon
         rifleController = GetComponent<RifleController>();
+        baseballBatController = GetComponent<BaseballBatController>();
+        bowController = GetComponent<BowController>();
+
         // viewCamera = Camera.main; // 메인카메라
     }
 
     private void Update() // Update 와 FixedUpdate 의 차이는 알지만 왜 Fixed Update를 사용했는지?
     {
+        
         // #1. 이동 (모바일에서는 컨트롤러 사용)
         Move();
         MoveCheck();
@@ -117,8 +125,18 @@ public class Player : MonoBehaviour
         if (Input.GetButton("Fire1"))
         {
             isShoot = true;
+            // #1.rifle
+            //anim.SetTrigger("Shoot");
+            //rifleController.Shoot();
+
+            // #2. Baseballbat
+            //anim.SetTrigger("Swing");
+            //baseballBatController.SwingCheck();
+
+            // #3. Bow
             anim.SetTrigger("Shoot");
-            rifleController.Shoot();
+            bowController.Shoot();
+               
         }
         else
             isShoot = false;

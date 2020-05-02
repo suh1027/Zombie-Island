@@ -74,6 +74,8 @@
     <Compile Include="Assets\Script\Map\Map.cs" />
     <Compile Include="Assets\Script\Map\MapGenerator.cs" />
     <Compile Include="Assets\Script\Player\Player.cs" />
+    <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Bow\Bow.cs" />
+    <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Bow\BowController.cs" />
     <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Gun\Rifle.cs" />
     <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Gun\RifleController.cs" />
     <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Projectile\Projectile.cs" />
