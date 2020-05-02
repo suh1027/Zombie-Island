@@ -81,6 +81,8 @@
     <Compile Include="Assets\Script\Weapon\LongRangeWeapon\Projectile\Projectile.cs" />
     <Compile Include="Assets\Script\Weapon\ShortRangeWeapon\BaseballBat\BaseballBat.cs" />
     <Compile Include="Assets\Script\Weapon\ShortRangeWeapon\BaseballBat\BaseballBatController.cs" />
+    <Compile Include="Assets\Script\Weapon\ShortRangeWeapon\Knife\Knife.cs" />
+    <Compile Include="Assets\Script\Weapon\ShortRangeWeapon\Knife\KnifeController.cs" />
     <None Include="Assets\FreeAssets\LowPolyWater_Pack\Shaders\WaterShaded.shader" />
     <None Include="Assets\FreeAssets\LowPolyWater_Pack\LowPoly Island\Credits.txt" />
     <None Include="Assets\FreeAssets\LowPolyGround\Readme_DownLoad Post ProcessingStack.txt" />

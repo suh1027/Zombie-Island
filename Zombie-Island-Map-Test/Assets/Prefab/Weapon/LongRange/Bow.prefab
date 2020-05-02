@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponName: 
   damage: 0
-  betweenArrowTime: 300
+  betweenArrowTime: 800
   arrowSpeed: 15
   arrowShootPoint: {fileID: 101520871364025801}
   arrowPrefab: {fileID: 1244905570628863935, guid: 0c2a0f64e5348d64487fd6b862880221,
@@ -174,10 +174,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8210251857928445205}
-  m_LocalRotation: {x: -0, y: -0.17504841, z: -0, w: 0.98455983}
-  m_LocalPosition: {x: -0.3958478, y: 0, z: 0.2738409}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.364, y: 0, z: 0.179}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2468009302537261399}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -20.163, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
