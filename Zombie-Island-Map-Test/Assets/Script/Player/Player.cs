@@ -126,16 +126,16 @@ public class Player : MonoBehaviour
         {
             isShoot = true;
             // #1.rifle
-            //anim.SetTrigger("Shoot");
-            //rifleController.Shoot();
+            anim.SetTrigger("Shoot");
+            rifleController.Shoot();
 
             // #2. Baseballbat
             //anim.SetTrigger("Swing");
             //baseballBatController.SwingCheck();
 
             // #3. Bow
-            anim.SetTrigger("Shoot");
-            bowController.Shoot();
+            //anim.SetTrigger("Shoot");
+            //bowController.Shoot();
                
         }
         else

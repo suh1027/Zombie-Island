@@ -71,6 +71,7 @@
     <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\FreeAssets\LowPolyGround\TutorialInfo\Scripts\buttonAssetstore.cs" />
     <Compile Include="Assets\FreeAssets\LowPolyWater_Pack\Scripts\LowPolyWater.cs" />
+    <Compile Include="Assets\Script\Enemy\Enemy.cs" />
     <Compile Include="Assets\Script\Map\Map.cs" />
     <Compile Include="Assets\Script\Map\MapGenerator.cs" />
     <Compile Include="Assets\Script\Player\Player.cs" />
